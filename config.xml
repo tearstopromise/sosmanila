@@ -1,0 +1,40 @@
+<?xml version   ="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "gcccs"
+    version     = "1.0">
+
+
+    <name>SOS Manila</name>
+    
+    <content src="index.html"/>
+    <icon src="icon.png" width="256" height="256" />
+    
+    <description>sosManila
+    </description>
+    
+   
+
+    <!-- third party plugins -->
+
+
+    <!-- core plugins -->
+    <gap:plugin name="org.apache.cordova.camera" />
+    <gap:plugin name="org.apache.cordova.media-capture" />
+    <gap:plugin name="org.apache.cordova.device" />
+    <gap:plugin name="org.apache.cordova.file" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+	<gap:plugin name="nl.x-services.plugins.toast" />
+ 
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+ 
+    <!-- universal preferences -->
+    <preference name="phonegap-version"           value="3.5.0" />         
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <!--<preference name="fullscreen"                 value="true" /> -->          <!-- all: hides the status bar at the top of the screen -->
+  
+   <preference name="fullscreen" value="false" />
+   	<preference name="orientation" value="portrait" />
+    <!-- content src="http://www.w3.org/2010/05/video/mediaevents.html" / -->
+</widget>
